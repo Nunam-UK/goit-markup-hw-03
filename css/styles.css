@@ -20,6 +20,7 @@ section {
 ul,
 ol {
   list-style: none;
+  
 }
 
 a {
@@ -30,6 +31,9 @@ a {
 button {
   cursor: pointer;
   background-color: #4d5ae5;
+  min-width: 169px;
+  height: 56px;
+  border-radius: 4px;
 }
 .order-button {
   font-family: "Roboto", sans-serif;
@@ -38,7 +42,7 @@ button {
   letter-spacing: 0.04em;
   border: none;
   color: #ffffff;
-  max-width: ;
+  
  
 }
 
@@ -82,8 +86,8 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin-top: 24px;
-  margin-bottom: 24px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-link:hover,
@@ -148,6 +152,8 @@ button {
 .order {
   height: 600px;
    background-color: #2e2f42;
+   padding-top: 188px;
+   padding-bottom: 188px;
 }
 
 .order-container {
@@ -230,6 +236,8 @@ button {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
+
 }
 
 .team-text {
@@ -242,6 +250,7 @@ button {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
+  row-gap: 48px;
  
 }
 .portfolio-main-title {
@@ -251,6 +260,7 @@ button {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 
 .portfolio-card {
