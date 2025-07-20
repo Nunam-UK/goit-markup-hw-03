@@ -54,21 +54,27 @@ button {
   color: #ffffff;
 }
 
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
 .header-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  
 }
 
 .header-nav {
   display: flex;
   align-items: center;
+  
 }
 
 .header-list {
   display: flex;
   gap: 40px;
-  margin-left: 76px;
+  
 }
 
 .header-link {
@@ -76,6 +82,8 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 
 .header-link:hover,
@@ -91,6 +99,7 @@ button {
   font-size: 18px;
   text-transform: uppercase;
   font-weight: 700;
+  margin-right: 76px;
 }
 
 .accent-header {
@@ -105,6 +114,9 @@ button {
   font-size: 18px;
   text-transform: uppercase;
   font-weight: 700;
+  margin-bottom: 16px;
+  display: inline-block;
+
 }
 
 .accent-footer {
@@ -135,10 +147,6 @@ button {
 
 .order {
   height: 600px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 120px;
    background-color: #2e2f42;
 }
 
@@ -269,6 +277,9 @@ button {
 .footer {
   background-color: #2e2f42;
   height: 312px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  
 }
 
 .footer-container {
@@ -281,5 +292,6 @@ button {
   color: #f4f4fd;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  
 
 }
