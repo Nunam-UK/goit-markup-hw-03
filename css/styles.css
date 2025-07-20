@@ -57,6 +57,7 @@ button {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   text-transform: uppercase;
+  font-weight: 700;
 }
 
 .accent-header {
@@ -70,6 +71,7 @@ button {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   text-transform: uppercase;
+  font-weight: 700;
 }
 
 .accent-footer {
