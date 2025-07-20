@@ -4,6 +4,19 @@ body {
   color: #434455;
 }
 
+.container {
+  max-width: 1284px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+
 ul,
 ol {
   list-style: none;
@@ -25,6 +38,8 @@ button {
   letter-spacing: 0.04em;
   border: none;
   color: #ffffff;
+  max-width: ;
+ 
 }
 
 .order-button:hover,
@@ -38,6 +53,24 @@ button {
   letter-spacing: 0.04em;
   color: #ffffff;
 }
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
+.header-list {
+  display: flex;
+  gap: 40px;
+  margin-left: 76px;
+}
+
 .header-link {
   font-weight: 500;
   line-height: 1.5;
@@ -80,6 +113,12 @@ button {
 
 .contacts {
   font-style: normal;
+  
+}
+
+.contacts-list {
+  display: flex;
+  gap: 40px;
 }
 .contacts-item {
   line-height: 1.5;
@@ -92,8 +131,23 @@ button {
   color: #404bbf;
 }
 
+
+
 .order {
-  background-color: #2e2f42;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 120px;
+   background-color: #2e2f42;
+}
+
+.order-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .order-title {
@@ -101,14 +155,18 @@ button {
   line-height: 1.07;
   color: #ffffff;
   letter-spacing: 0.02em;
-  text-align: center;
+  max-width: 496px;
+ 
 }
 
 .benefits {
   background-color: #ffffff;
 }
 
+
 .benefits-list {
+  display: flex;
+  gap: 24px; 
 }
 
 .benefits-item {
@@ -137,6 +195,7 @@ button {
   background-color: #f4f4fd;
 }
 
+
 .team-main-title {
   font-size: 36px;
   line-height: 1.11;
@@ -146,8 +205,15 @@ button {
   color: #2e2f42;
 }
 
+.all-team-card {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  text-align: center;
+}
 .team-card {
   background-color: #ffffff;
+  
 }
 
 .team-title {
@@ -164,6 +230,12 @@ button {
   color: #434455;
 }
 
+.all-portfolio-card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+ 
+}
 .portfolio-main-title {
   font-size: 36px;
   line-height: 1.11;
@@ -175,6 +247,8 @@ button {
 
 .portfolio-card {
   background-color: #ffffff;
+  border: #2e2f42 solid;
+  
 }
 
 .portfolio-title {
@@ -183,6 +257,7 @@ button {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  
 }
 
 .portfolio-text {
@@ -193,10 +268,18 @@ button {
 
 .footer {
   background-color: #2e2f42;
+  height: 312px;
+}
+
+.footer-container {
+
+
+  
 }
 
 .footer-text {
   color: #f4f4fd;
   line-height: 1.5;
   letter-spacing: 0.02em;
+
 }
