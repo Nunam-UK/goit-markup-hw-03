@@ -5,9 +5,10 @@ body {
 }
 
 .container {
-  max-width: 1284px;
-  margin-left: auto;
-  margin-right: auto;
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
   
 }
 
@@ -184,6 +185,7 @@ button {
 }
 
 .benefits-item {
+  width: calc((100% - 72px) / 4);
 }
 
 .benefits-title {
@@ -229,6 +231,7 @@ button {
 }
 .team-card {
   background-color: #ffffff;
+  width: calc((100% - 72px) / 4);
   
 }
 
