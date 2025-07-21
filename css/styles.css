@@ -190,12 +190,11 @@ button {
 }
 
 .benefits-item {
-  
+  flex-basis: calc((100% - 72px) / 4);
+ 
 }
 
-.benefits-item-first {
-  width: calc((100% - 72px) / 4);
-}
+
 
 .benefits-title {
   font-size: 0;
