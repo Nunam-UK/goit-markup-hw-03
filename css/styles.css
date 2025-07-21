@@ -189,7 +189,7 @@ button {
   
 }
 
-.benefits-item .benefits-item-first {
+.benefits-item {
   width: calc((100% - 72px) / 4);
 }
 
