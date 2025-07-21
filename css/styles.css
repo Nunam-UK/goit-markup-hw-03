@@ -215,59 +215,63 @@ button {
   color: #434455;
 }
 
+
 .team {
-  background-color: #f4f4fd;
+  background-color: #F4F4FD;
+  padding: 120px 0p;
 }
 
-.team-container {
-
-}
 
 .team-main-title {
   font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-align: center;
-  text-transform: capitalize;
-  color: #2e2f42;
-  margin-bottom: 72px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-align: center;
+color: #2E2F42;
+text-transform: capitalize;
+margin-bottom: 72px;
 }
 
-.all-team-card {
+ .all-team-card {
+  list-style: none;
   display: flex;
   gap: 24px;
-  width: calc((100% - 72px) / 4);
-  
-}
-.team-card {
-  background-color: #ffffff;
-  width: 264px;
-  border-radius:  0 0 4px 4px;
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-  
 }
 
-.container-title-text {
-  padding-top: 32px;
-  padding-bottom: 32px;
+.team-card {
+ display: flex;
+ flex-direction: column;
+ align-items: center; 
+ gap: 8px;
+ border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+
+}
+
+.card-text {
+  padding: 32px 0;
+  text-align: center;
+
 }
 
 .team-title {
   font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-  
-  
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2E2F42;
+margin-bottom: 8px;
 
 }
 
 .team-text {
   line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
+letter-spacing: 0.02em;
+
 }
+
 
 .all-portfolio-card {
   display: flex;
