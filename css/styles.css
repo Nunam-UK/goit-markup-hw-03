@@ -189,9 +189,8 @@ button {
   
 }
 
-.benefits-item {
-  flex-basis: calc((100% - 72px) / 4);
- 
+.benefits-item .benefits-item-first {
+  width: calc((100% - 72px) / 4);
 }
 
 
