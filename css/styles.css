@@ -190,8 +190,11 @@ button {
 }
 
 .benefits-item {
-  width: calc((100% - 72px) / 4);
   
+}
+
+.benefits-item-first {
+  width: calc((100% - 72px) / 4);
 }
 
 .benefits-title {
