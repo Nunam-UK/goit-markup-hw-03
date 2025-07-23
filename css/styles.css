@@ -171,7 +171,6 @@ button {
 
 
 .order {
-  height: 600px;
    background-color: #2e2f42;
    padding-top: 188px;
    padding-bottom: 188px;
@@ -191,7 +190,7 @@ button {
   color: #ffffff;
   letter-spacing: 0.02em;
   max-width: 496px;
-  padding-bottom: 48px;
+  margin-bottom: 48px;
  
 }
 
